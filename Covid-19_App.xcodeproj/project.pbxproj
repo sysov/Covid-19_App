@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0F3170C525C931550091C10C /* ImageNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3170C425C931550091C10C /* ImageNews.swift */; };
+		0F37C61B25D1390F00EEE464 /* ListEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C61A25D1390F00EEE464 /* ListEventManager.swift */; };
+		0F37C61E25D13A0100EEE464 /* LogoutListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C61D25D13A0100EEE464 /* LogoutListener.swift */; };
 		0FA1E30025C8884800F14F87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */; };
 		0FA1E30525C892F300F14F87 /* CasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30425C892F300F14F87 /* CasesViewController.swift */; };
 		0FA1E30825C893A500F14F87 /* CasesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30725C893A500F14F87 /* CasesDetails.swift */; };
@@ -18,6 +20,9 @@
 		0FA1E31725C894A000F14F87 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E31625C894A000F14F87 /* NewsViewController.swift */; };
 		0FA1E31A25C894C600F14F87 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E31925C894C600F14F87 /* NewsCell.swift */; };
 		0FA1E31D25C894EA00F14F87 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E31C25C894EA00F14F87 /* TabBar.swift */; };
+		0FB0E84925D1333E001BD46B /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0E84825D1333E001BD46B /* Listener.swift */; };
+		0FB0E84C25D1338C001BD46B /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0E84B25D1338C001BD46B /* EventManager.swift */; };
+		0FB0E84F25D1344D001BD46B /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0E84E25D1344D001BD46B /* Dependencies.swift */; };
 		0FDB82B825C87BED007EB093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB82B725C87BED007EB093 /* AppDelegate.swift */; };
 		0FDB82BA25C87BED007EB093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB82B925C87BED007EB093 /* SceneDelegate.swift */; };
 		0FDB82BF25C87BED007EB093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDB82BD25C87BED007EB093 /* Main.storyboard */; };
@@ -29,6 +34,8 @@
 /* Begin PBXFileReference section */
 		0E7FB7F86D46F35C81219335 /* Pods_Covid_19_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid_19_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3170C425C931550091C10C /* ImageNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNews.swift; sourceTree = "<group>"; };
+		0F37C61A25D1390F00EEE464 /* ListEventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEventManager.swift; sourceTree = "<group>"; };
+		0F37C61D25D13A0100EEE464 /* LogoutListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutListener.swift; sourceTree = "<group>"; };
 		0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0FA1E30425C892F300F14F87 /* CasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesViewController.swift; sourceTree = "<group>"; };
 		0FA1E30725C893A500F14F87 /* CasesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesDetails.swift; sourceTree = "<group>"; };
@@ -39,6 +46,9 @@
 		0FA1E31625C894A000F14F87 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		0FA1E31925C894C600F14F87 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		0FA1E31C25C894EA00F14F87 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0FB0E84825D1333E001BD46B /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		0FB0E84B25D1338C001BD46B /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		0FB0E84E25D1344D001BD46B /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		0FDB82B425C87BED007EB093 /* Covid-19_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-19_App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDB82B725C87BED007EB093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FDB82B925C87BED007EB093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +77,10 @@
 			children = (
 				0FA1E31025C8945500F14F87 /* LoginUsers.swift */,
 				0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */,
+				0FB0E84825D1333E001BD46B /* Listener.swift */,
+				0FB0E84E25D1344D001BD46B /* Dependencies.swift */,
+				0F37C61A25D1390F00EEE464 /* ListEventManager.swift */,
+				0FB0E84B25D1338C001BD46B /* EventManager.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -96,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				0FA1E30D25C8942100F14F87 /* LogOutController.swift */,
+				0F37C61D25D13A0100EEE464 /* LogoutListener.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -142,7 +157,6 @@
 				6D6A301F7CB841134AD62C62 /* Pods-Covid-19_App.debug.xcconfig */,
 				67E5742C2803FDF7C61D7D3D /* Pods-Covid-19_App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -268,9 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB0E84C25D1338C001BD46B /* EventManager.swift in Sources */,
+				0F37C61B25D1390F00EEE464 /* ListEventManager.swift in Sources */,
 				0FA1E30825C893A500F14F87 /* CasesDetails.swift in Sources */,
 				0FA1E30025C8884800F14F87 /* LoginViewController.swift in Sources */,
 				0FA1E31425C8947B00F14F87 /* Article.swift in Sources */,
+				0FB0E84F25D1344D001BD46B /* Dependencies.swift in Sources */,
 				0FA1E31D25C894EA00F14F87 /* TabBar.swift in Sources */,
 				0FA1E31725C894A000F14F87 /* NewsViewController.swift in Sources */,
 				0FDB82B825C87BED007EB093 /* AppDelegate.swift in Sources */,
@@ -278,7 +295,9 @@
 				0FA1E30B25C893D500F14F87 /* Cases.swift in Sources */,
 				0FA1E30525C892F300F14F87 /* CasesViewController.swift in Sources */,
 				0FDB82BA25C87BED007EB093 /* SceneDelegate.swift in Sources */,
+				0F37C61E25D13A0100EEE464 /* LogoutListener.swift in Sources */,
 				0FA1E31125C8945500F14F87 /* LoginUsers.swift in Sources */,
+				0FB0E84925D1333E001BD46B /* Listener.swift in Sources */,
 				0FA1E30E25C8942100F14F87 /* LogOutController.swift in Sources */,
 				0FA1E31A25C894C600F14F87 /* NewsCell.swift in Sources */,
 			);

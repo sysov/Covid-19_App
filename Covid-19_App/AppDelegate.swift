@@ -1,19 +1,22 @@
-//
-//  AppDelegate.swift
-//  Covid-19_App
-//
-//  Created by Valera Sysov on 2/1/21.
-//
-
 import UIKit
+import Swinject
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var logger: Logger?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let container = Container()
+            
+        container.register(EventManager.self) {_ in ListEventManager()}.inObjectScope(.container)
+        Dependencies.container = container
+        
+        logger = Logger(eventManager: Dependencies.container.resolve(EventManager.self)!)
+      
+        
+        
         return true
     }
 
