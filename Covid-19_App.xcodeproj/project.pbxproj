@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3170C525C931550091C10C /* ImageNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3170C425C931550091C10C /* ImageNews.swift */; };
+		0FA1E30025C8884800F14F87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */; };
+		0FA1E30525C892F300F14F87 /* CasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30425C892F300F14F87 /* CasesViewController.swift */; };
+		0FA1E30825C893A500F14F87 /* CasesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30725C893A500F14F87 /* CasesDetails.swift */; };
+		0FA1E30B25C893D500F14F87 /* Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30A25C893D500F14F87 /* Cases.swift */; };
+		0FA1E30E25C8942100F14F87 /* LogOutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30D25C8942100F14F87 /* LogOutController.swift */; };
+		0FA1E31125C8945500F14F87 /* LoginUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E31025C8945500F14F87 /* LoginUsers.swift */; };
+		0FA1E31425C8947B00F14F87 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E31325C8947B00F14F87 /* Article.swift */; };
+		0FA1E31725C894A000F14F87 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E31625C894A000F14F87 /* NewsViewController.swift */; };
+		0FA1E31A25C894C600F14F87 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E31925C894C600F14F87 /* NewsCell.swift */; };
+		0FA1E31D25C894EA00F14F87 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E31C25C894EA00F14F87 /* TabBar.swift */; };
 		0FDB82B825C87BED007EB093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB82B725C87BED007EB093 /* AppDelegate.swift */; };
 		0FDB82BA25C87BED007EB093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB82B925C87BED007EB093 /* SceneDelegate.swift */; };
-		0FDB82BC25C87BED007EB093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB82BB25C87BED007EB093 /* ViewController.swift */; };
 		0FDB82BF25C87BED007EB093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDB82BD25C87BED007EB093 /* Main.storyboard */; };
 		0FDB82C125C87BEE007EB093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDB82C025C87BEE007EB093 /* Assets.xcassets */; };
 		0FDB82C425C87BEE007EB093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDB82C225C87BEE007EB093 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3170C425C931550091C10C /* ImageNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNews.swift; sourceTree = "<group>"; };
+		0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0FA1E30425C892F300F14F87 /* CasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesViewController.swift; sourceTree = "<group>"; };
+		0FA1E30725C893A500F14F87 /* CasesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesDetails.swift; sourceTree = "<group>"; };
+		0FA1E30A25C893D500F14F87 /* Cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cases.swift; sourceTree = "<group>"; };
+		0FA1E30D25C8942100F14F87 /* LogOutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutController.swift; sourceTree = "<group>"; };
+		0FA1E31025C8945500F14F87 /* LoginUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUsers.swift; sourceTree = "<group>"; };
+		0FA1E31325C8947B00F14F87 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		0FA1E31625C894A000F14F87 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		0FA1E31925C894C600F14F87 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		0FA1E31C25C894EA00F14F87 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		0FDB82B425C87BED007EB093 /* Covid-19_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-19_App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDB82B725C87BED007EB093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FDB82B925C87BED007EB093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FDB82BB25C87BED007EB093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FDB82BE25C87BED007EB093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FDB82C025C87BEE007EB093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FDB82C325C87BEE007EB093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +57,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3170C025C92F060091C10C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0FA1E31025C8945500F14F87 /* LoginUsers.swift */,
+				0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0F3170C125C92F6B0091C10C /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				0FA1E30A25C893D500F14F87 /* Cases.swift */,
+				0FA1E30725C893A500F14F87 /* CasesDetails.swift */,
+				0FA1E30425C892F300F14F87 /* CasesViewController.swift */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		0F3170C225C92F9A0091C10C /* News */ = {
+			isa = PBXGroup;
+			children = (
+				0FA1E31325C8947B00F14F87 /* Article.swift */,
+				0FA1E31625C894A000F14F87 /* NewsViewController.swift */,
+				0F3170C425C931550091C10C /* ImageNews.swift */,
+				0FA1E31925C894C600F14F87 /* NewsCell.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		0F3170C325C92FC00091C10C /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				0FA1E30D25C8942100F14F87 /* LogOutController.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
 		0FDB82AB25C87BED007EB093 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +114,13 @@
 		0FDB82B625C87BED007EB093 /* Covid-19_App */ = {
 			isa = PBXGroup;
 			children = (
+				0F3170C025C92F060091C10C /* Login */,
+				0F3170C125C92F6B0091C10C /* Cases */,
+				0F3170C225C92F9A0091C10C /* News */,
+				0F3170C325C92FC00091C10C /* Profiles */,
 				0FDB82B725C87BED007EB093 /* AppDelegate.swift */,
 				0FDB82B925C87BED007EB093 /* SceneDelegate.swift */,
-				0FDB82BB25C87BED007EB093 /* ViewController.swift */,
+				0FA1E31C25C894EA00F14F87 /* TabBar.swift */,
 				0FDB82BD25C87BED007EB093 /* Main.storyboard */,
 				0FDB82C025C87BEE007EB093 /* Assets.xcassets */,
 				0FDB82C225C87BEE007EB093 /* LaunchScreen.storyboard */,
@@ -137,9 +199,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FDB82BC25C87BED007EB093 /* ViewController.swift in Sources */,
+				0FA1E30825C893A500F14F87 /* CasesDetails.swift in Sources */,
+				0FA1E30025C8884800F14F87 /* LoginViewController.swift in Sources */,
+				0FA1E31425C8947B00F14F87 /* Article.swift in Sources */,
+				0FA1E31D25C894EA00F14F87 /* TabBar.swift in Sources */,
+				0FA1E31725C894A000F14F87 /* NewsViewController.swift in Sources */,
 				0FDB82B825C87BED007EB093 /* AppDelegate.swift in Sources */,
+				0F3170C525C931550091C10C /* ImageNews.swift in Sources */,
+				0FA1E30B25C893D500F14F87 /* Cases.swift in Sources */,
+				0FA1E30525C892F300F14F87 /* CasesViewController.swift in Sources */,
 				0FDB82BA25C87BED007EB093 /* SceneDelegate.swift in Sources */,
+				0FA1E31125C8945500F14F87 /* LoginUsers.swift in Sources */,
+				0FA1E30E25C8942100F14F87 /* LogOutController.swift in Sources */,
+				0FA1E31A25C894C600F14F87 /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Covid-19-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Covid-19-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
