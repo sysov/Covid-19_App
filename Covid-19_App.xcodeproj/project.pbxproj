@@ -10,6 +10,9 @@
 		0F3170C525C931550091C10C /* ImageNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3170C425C931550091C10C /* ImageNews.swift */; };
 		0F37C61B25D1390F00EEE464 /* ListEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C61A25D1390F00EEE464 /* ListEventManager.swift */; };
 		0F37C61E25D13A0100EEE464 /* LogoutListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C61D25D13A0100EEE464 /* LogoutListener.swift */; };
+		0F37C62625D13CB600EEE464 /* DayStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C62525D13CB600EEE464 /* DayStyle.swift */; };
+		0F37C62925D13DCD00EEE464 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C62825D13DCD00EEE464 /* AppStyle.swift */; };
+		0F37C62C25D13F5700EEE464 /* NightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C62B25D13F5700EEE464 /* NightStyle.swift */; };
 		0FA1E30025C8884800F14F87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */; };
 		0FA1E30525C892F300F14F87 /* CasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30425C892F300F14F87 /* CasesViewController.swift */; };
 		0FA1E30825C893A500F14F87 /* CasesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30725C893A500F14F87 /* CasesDetails.swift */; };
@@ -36,6 +39,9 @@
 		0F3170C425C931550091C10C /* ImageNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNews.swift; sourceTree = "<group>"; };
 		0F37C61A25D1390F00EEE464 /* ListEventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEventManager.swift; sourceTree = "<group>"; };
 		0F37C61D25D13A0100EEE464 /* LogoutListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutListener.swift; sourceTree = "<group>"; };
+		0F37C62525D13CB600EEE464 /* DayStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStyle.swift; sourceTree = "<group>"; };
+		0F37C62825D13DCD00EEE464 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		0F37C62B25D13F5700EEE464 /* NightStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightStyle.swift; sourceTree = "<group>"; };
 		0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0FA1E30425C892F300F14F87 /* CasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesViewController.swift; sourceTree = "<group>"; };
 		0FA1E30725C893A500F14F87 /* CasesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesDetails.swift; sourceTree = "<group>"; };
@@ -115,6 +121,16 @@
 			path = Profiles;
 			sourceTree = "<group>";
 		};
+		0F37C62F25D140FC00EEE464 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				0F37C62825D13DCD00EEE464 /* AppStyle.swift */,
+				0F37C62525D13CB600EEE464 /* DayStyle.swift */,
+				0F37C62B25D13F5700EEE464 /* NightStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		0FDB82AB25C87BED007EB093 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +152,7 @@
 		0FDB82B625C87BED007EB093 /* Covid-19_App */ = {
 			isa = PBXGroup;
 			children = (
+				0F37C62F25D140FC00EEE464 /* Style */,
 				0F3170C025C92F060091C10C /* Login */,
 				0F3170C125C92F6B0091C10C /* Cases */,
 				0F3170C225C92F9A0091C10C /* News */,
@@ -286,7 +303,10 @@
 				0F37C61B25D1390F00EEE464 /* ListEventManager.swift in Sources */,
 				0FA1E30825C893A500F14F87 /* CasesDetails.swift in Sources */,
 				0FA1E30025C8884800F14F87 /* LoginViewController.swift in Sources */,
+				0F37C62C25D13F5700EEE464 /* NightStyle.swift in Sources */,
+				0F37C62625D13CB600EEE464 /* DayStyle.swift in Sources */,
 				0FA1E31425C8947B00F14F87 /* Article.swift in Sources */,
+				0F37C62925D13DCD00EEE464 /* AppStyle.swift in Sources */,
 				0FB0E84F25D1344D001BD46B /* Dependencies.swift in Sources */,
 				0FA1E31D25C894EA00F14F87 /* TabBar.swift in Sources */,
 				0FA1E31725C894A000F14F87 /* NewsViewController.swift in Sources */,

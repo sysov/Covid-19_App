@@ -9,7 +9,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let container = Container()
-            
+        
+        container.register(AppStyle.self, name: "Day") {_ in AppDayStyle() }
+        container.register(AppStyle.self, name: "Night") {_ in AppNightStyle() }
         container.register(EventManager.self) {_ in ListEventManager()}.inObjectScope(.container)
         Dependencies.container = container
         
