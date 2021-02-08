@@ -17,6 +17,7 @@ class LogOutController : UIViewController {
     
     @IBAction func logoutButtonPressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
+        ListEventManager.singleton.notify()
     }
     
 }
