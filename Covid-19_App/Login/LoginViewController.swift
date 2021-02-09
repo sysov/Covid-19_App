@@ -7,10 +7,12 @@ struct UserManager {
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet weak var verticalConstrain: NSLayoutConstraint!
-    @IBOutlet weak var userNameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet private weak var verticalConstrain: NSLayoutConstraint!
+    @IBOutlet private weak var userNameTextField: UITextField!
+    @IBOutlet private weak var passwordTextField: UITextField!
+    @IBOutlet private weak var loginButton: UIButton!
+    
+    private let loginFieldValidator = LoginFieldsValidator()
     
     private let usernameKey = "lastSuccessLogin"
     
@@ -50,7 +52,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             
         let restoredUser = try? decoder.decode(User.self, from: lastSuccessLoginData)
         
-        print(restoredUser)
         }
         
     }
@@ -62,15 +63,16 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
 
-    @IBAction func loginButtonSelected(_ sender: UIButton) {
+    @IBAction private func loginButtonSelected(_ sender: UIButton) {
         UserManager.username = userNameTextField.text!
         let viewController = TabBar ()
         viewController.textLabel = userNameTextField.text ?? ""
         present(viewController, animated: true, completion: nil)
     }
     
-    @objc func buttonDidAppear ( _ sender : UITextField ){
-        if userNameTextField.text == "" || passwordTextField.text == ""{
+    @objc private func buttonDidAppear ( _ sender : UITextField ){
+        if loginFieldValidator.validator(usernameTextField: userNameTextField.text!, passwordTextField: passwordTextField.text!) {
+            
             loginButton.isHidden = true
         }else{
             loginButton.isHidden = false

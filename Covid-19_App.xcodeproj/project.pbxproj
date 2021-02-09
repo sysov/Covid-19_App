@@ -13,6 +13,7 @@
 		0F37C62625D13CB600EEE464 /* DayStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C62525D13CB600EEE464 /* DayStyle.swift */; };
 		0F37C62925D13DCD00EEE464 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C62825D13DCD00EEE464 /* AppStyle.swift */; };
 		0F37C62C25D13F5700EEE464 /* NightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C62B25D13F5700EEE464 /* NightStyle.swift */; };
+		0F37C63125D1419F00EEE464 /* LoginFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37C63025D1419F00EEE464 /* LoginFieldsValidator.swift */; };
 		0FA1E30025C8884800F14F87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */; };
 		0FA1E30525C892F300F14F87 /* CasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30425C892F300F14F87 /* CasesViewController.swift */; };
 		0FA1E30825C893A500F14F87 /* CasesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1E30725C893A500F14F87 /* CasesDetails.swift */; };
@@ -42,6 +43,7 @@
 		0F37C62525D13CB600EEE464 /* DayStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStyle.swift; sourceTree = "<group>"; };
 		0F37C62825D13DCD00EEE464 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
 		0F37C62B25D13F5700EEE464 /* NightStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightStyle.swift; sourceTree = "<group>"; };
+		0F37C63025D1419F00EEE464 /* LoginFieldsValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFieldsValidator.swift; sourceTree = "<group>"; };
 		0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0FA1E30425C892F300F14F87 /* CasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesViewController.swift; sourceTree = "<group>"; };
 		0FA1E30725C893A500F14F87 /* CasesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesDetails.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				0FA1E31025C8945500F14F87 /* LoginUsers.swift */,
 				0FA1E2FF25C8884800F14F87 /* LoginViewController.swift */,
+				0F37C63025D1419F00EEE464 /* LoginFieldsValidator.swift */,
 				0FB0E84825D1333E001BD46B /* Listener.swift */,
 				0FB0E84E25D1344D001BD46B /* Dependencies.swift */,
 				0F37C61A25D1390F00EEE464 /* ListEventManager.swift */,
@@ -308,6 +311,7 @@
 				0FA1E31425C8947B00F14F87 /* Article.swift in Sources */,
 				0F37C62925D13DCD00EEE464 /* AppStyle.swift in Sources */,
 				0FB0E84F25D1344D001BD46B /* Dependencies.swift in Sources */,
+				0F37C63125D1419F00EEE464 /* LoginFieldsValidator.swift in Sources */,
 				0FA1E31D25C894EA00F14F87 /* TabBar.swift in Sources */,
 				0FA1E31725C894A000F14F87 /* NewsViewController.swift in Sources */,
 				0FDB82B825C87BED007EB093 /* AppDelegate.swift in Sources */,
