@@ -11,18 +11,18 @@ class TabBar: UITabBarController {
         
         let newsViewController = storyboard.instantiateViewController(withIdentifier: "NewsViewController") as! NewsViewController
         
-        newsViewController.title = "News"
+        newsViewController.title = NSLocalizedString("NEWSVIEWCONTROLLER", comment: "")
       
         
         let casesViewController = storyboard.instantiateViewController(withIdentifier: "CasesViewController") as! CasesViewController
         
-        casesViewController.title = "Cases"
+        casesViewController.title = NSLocalizedString("CASESEVIEWCONTROLLER", comment: "")
        
         
         let profileViewController = storyboard.instantiateViewController(withIdentifier: "LogOutController") as! LogOutController
         
         profileViewController.textLabel = textLabel
-        profileViewController.title = "Profile"
+        profileViewController.title = NSLocalizedString("PROFILEVIEWCONTROLLER", comment: "")
 
         
         let navigationViewController = UINavigationController(rootViewController: newsViewController)
