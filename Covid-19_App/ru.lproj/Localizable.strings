@@ -1,0 +1,5 @@
+CASESEVIEWCONTROLLER = "Сведения";
+PROFILEVIEWCONTROLLER = "Профиль";
+NEWSVIEWCONTROLLER = "Новости";
+CONFIRMED = "Заражено";
+DEATH = "Умерло";

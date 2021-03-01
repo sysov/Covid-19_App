@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "A3P-no-MUZ"; */
+"A3P-no-MUZ.normalTitle" = "Выход";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Don-2P-PZE"; */
+"Don-2P-PZE.text" = "Label";
+
+/* Class = "UILabel"; text = "confirmedDetails"; ObjectID = "FQY-nc-2zw"; */
+"FQY-nc-2zw.text" = "confirmedDetails";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "I3G-jg-vJh"; */
+"I3G-jg-vJh.text" = "Новости";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "O3u-mN-j51"; */
+"O3u-mN-j51.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OmF-kR-2Vs"; */
+"OmF-kR-2Vs.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "SXq-pp-tFq"; */
+"SXq-pp-tFq.placeholder" = "Имя пользователя";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WQy-cc-BEc"; */
+"WQy-cc-BEc.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XYI-mq-tG9"; */
+"XYI-mq-tG9.text" = "Label";
+
+/* Class = "UILabel"; text = "deathDetails"; ObjectID = "bpl-fb-ym8"; */
+"bpl-fb-ym8.text" = "deathDetails";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "cGj-M3-yUn"; */
+"cGj-M3-yUn.placeholder" = "Пароль";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "haA-7V-ygg"; */
+"haA-7V-ygg.normalTitle" = "Вход";

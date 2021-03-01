@@ -9,8 +9,13 @@ class CasesDetails: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        confirmedLabel.text = " Confirmed: \(country!.infected)"
-        deathLabel.text = "Death: \(country!.recovered ?? 0)"
+        
+        
+        confirmedLabel.text = "\(NSLocalizedString("CONFIRMED", comment: "")) \(country!.infected)"
+
+        
+
+        deathLabel.text = "\(NSLocalizedString("DEATH", comment: "")) \(country!.recovered ?? 0)"
         
     }
     
